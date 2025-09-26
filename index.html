@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Charles Roussel — Étudiant en 2ème année à EPITECH. Projets, compétences, contact.">
+    <title>Charles Roussel — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a href="#top" class="brand">Charles Roussel</a>
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Navigation principale">
+            <a href="#about">À propos</a>
+            <a href="#projects">Projets</a>
+            <a href="#skills">Compétences</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" aria-label="Basculer le thème">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1>Étudiant EPITECH — 2ème année</h1>
+                <p>Passionné par le développement logiciel, l'architecture web et la création d'expériences élégantes et performantes.</p>
+                <div class="hero-cta">
+                    <a class="btn primary" href="#projects">Voir mes projets</a>
+                    <a class="btn" href="#contact">Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <h2>À propos</h2>
+                <p>Je suis Charles Roussel, étudiant en 2ème année à EPITECH. J'aime concevoir des solutions robustes, apprendre de nouvelles technologies et travailler en équipe pour transformer des idées en produits concrets.</p>
+                <ul class="about-list">
+                    <li><strong>Intérêts</strong>: Web, systèmes, IA appliquée, outils développeur</li>
+                    <li><strong>Qualités</strong>: Autonomie, rigueur, esprit d'équipe, curiosité</li>
+                    <li><strong>Localisation</strong>: France</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <h2>Projets</h2>
+                <div class="grid projects-grid">
+                    <article class="card project">
+                        <h3>Projet A — Application Web</h3>
+                        <p>Mini-application démontrant une architecture front/back simple avec authentification et CRUD.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Démo</a>
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <h3>Projet B — Outil CLI</h3>
+                        <p>Un utilitaire en ligne de commande pour automatiser des tâches répétitives.</p>
+                        <div class="tags">
+                            <span>Node.js</span><span>TypeScript</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Doc</a>
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <h3>Projet C — Projet École</h3>
+                        <p>Projet académique mettant l'accent sur les algorithmes et la qualité de code.</p>
+                        <div class="tags">
+                            <span>C</span><span>Algorithmie</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Rapport</a>
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="grid skills-grid">
+                    <div class="card">
+                        <h3>Langages</h3>
+                        <ul>
+                            <li>C, C++ (bases), Python</li>
+                            <li>JavaScript, TypeScript</li>
+                            <li>HTML5, CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Outils & Frameworks</h3>
+                        <ul>
+                            <li>Git, GitHub</li>
+                            <li>Node.js, Express (bases)</li>
+                            <li>React (bases)</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Méthodes</h3>
+                        <ul>
+                            <li>Clean code, revues de code</li>
+                            <li>Agile/Scrum (projets étudiants)</li>
+                            <li>Tests de base</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Disponible pour stages, projets et collaborations. N'hésitez pas à me contacter.</p>
+                <form class="contact-form" name="contact" netlify>
+                    <div class="grid form-grid">
+                        <label>
+                            <span>Nom</span>
+                            <input type="text" name="name" placeholder="Votre nom" required>
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email" placeholder="vous@exemple.com" required>
+                        </label>
+                        <label class="full">
+                            <span>Message</span>
+                            <textarea name="message" rows="5" placeholder="Bonjour..." required></textarea>
+                        </label>
+                    </div>
+                    <button class="btn primary" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© <span id="year"></span> Charles Roussel — EPITECH</span>
+            <a href="#top" class="to-top" aria-label="Revenir en haut">↑</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <noscript>Ce site fonctionne mieux avec JavaScript activé.</noscript>
+</body>
+</html>
+
+
