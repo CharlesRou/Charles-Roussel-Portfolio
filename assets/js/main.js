@@ -46,6 +46,37 @@
   });
 })();
 
+// Header on scroll
+(function () {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+  const onScroll = () => {
+    const scrolled = window.scrollY > 8;
+    header.classList.toggle('scrolled', scrolled);
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
+
+// Reveal on scroll
+(function () {
+  const selector = '[data-reveal]';
+  const candidates = document.querySelectorAll(selector);
+  if (!('IntersectionObserver' in window) || !candidates.length) {
+    candidates.forEach((el) => el.classList.add('revealed'));
+    return;
+  }
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    }
+  }, { threshold: 0.12, rootMargin: '0px 0px -10% 0px' });
+  candidates.forEach((el) => observer.observe(el));
+})();
+
 // Set current year
 document.getElementById('year').textContent = new Date().getFullYear();
 
