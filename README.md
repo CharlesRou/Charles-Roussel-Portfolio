@@ -1,6 +1,6 @@
 # Charles-Roussel-Portfolio
 ## Portfolio de Charles Roussel
-
+https://charlesrou.github.io/Charles-Roussel-Portfolio/
 Un petit portfolio statique en HTML/CSS/JS. Contient les sections: Hero, À propos, Projets, Compétences et Contact.
 
 ### Démarrer
@@ -18,4 +18,4 @@ Un petit portfolio statique en HTML/CSS/JS. Contient les sections: Hero, À prop
 - Netlify/Vercel: déployez le dossier tel quel (site statique).
 
 ### Licence
-MIT
+Charles ROUSSEL
