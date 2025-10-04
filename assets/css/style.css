@@ -207,6 +207,21 @@ html, body {
 .skills-grid {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+.evidence-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+.evidence-list li {
+  margin: 6px 0;
+}
+.evidence-list a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.evidence-list a:hover {
+  color: var(--brand);
+}
 
 .card {
   border: 1px solid var(--border);
