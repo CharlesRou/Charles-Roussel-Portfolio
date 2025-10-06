@@ -1,0 +1,126 @@
+Portfolio professionnel — Version écrite (10 pages)
+Auteur: Charles Roussel | École: EPITA | Année: 2025
+
+Table des matières
+1. Introduction
+2. Présentation personnelle
+3. Parcours académique
+4. Compétence 1 : Conception et développement d’applications logicielles
+5. Compétence 2 : Optimisation algorithmique et analyse de la performance
+6. Compétence 3 : Travail collaboratif et gestion de projet technique
+7. Expériences professionnelles et personnelles
+8. Compétences et savoir-faire
+9. Ouverture et perspectives
+10. Conclusion et contact
+
+1. Introduction
+
+Ce document présente mon portfolio sous une forme écrite et paginée. Il synthétise mon parcours, mes projets et trois compétences clés développées au cours de ma formation à l’EPITA:
+- Compétence 1 : Conception et développement d’applications logicielles
+- Compétence 2 : Optimisation algorithmique et analyse de la performance
+- Compétence 3 : Travail collaboratif et gestion de projet technique
+
+Les projets mis en avant incluent un jeu vidéo développé en C# avec Unity et un mini projet d’algorithmique visant à calculer le plus grand nombre de termes de Fibonacci en 1 seconde. Des captures sont référencées pour illustrer concrètement ces réalisations.
+
+2. Présentation personnelle
+
+Je m’appelle Charles Roussel, étudiant à l’EPITA. Mon parcours est guidé par la curiosité, l’envie d’apprendre et le goût du concret. Avant l’EPITA, j’ai alterné expériences professionnelles et voyages (Portugal, Australie), ce qui m’a permis d’acquérir autonomie, maturité et un bon niveau d’anglais professionnel.
+
+J’ai également porté des initiatives entrepreneuriales (micro-entreprise de revente de sneakers, ~10 000 € de CA), développant sens de l’organisation, rigueur financière et relation client. Mon engagement associatif (Kiwanis, marches solidaires Petit Pas) nourrit mon sens du collectif et de l’impact utile.
+
+3. Parcours académique
+
+Lycée: spécialités Mathématiques, Physique-Chimie et SVT, avec un intérêt marqué pour l’analyse (SES). Ces bases m’ont donné rigueur scientifique et méthode.
+
+EPITA: j’ai consolidé mes fondamentaux en algorithmique et programmation (C, C#, Python, Java), et appris à mener des projets complets: spécifier, concevoir, implémenter, tester, livrer. Les projets pratiques m’ont fait progresser sur la qualité de code, l’architecture, la documentation et la collaboration (Git).
+
+4. Compétence 1 : Conception et développement d’applications logicielles
+
+Projet associé: Jeu vidéo en C# (Unity)
+Objectif: passer d’une idée à un produit jouable, stable et lisible côté code.
+Contributions clés:
+- Architecture de scènes, gestion d’UI et boucle de gameplay.
+- Scripts C# clairs et modulaires (gestion des collisions, raycasts, états de jeu).
+- Itérations rapides avec retours utilisateurs (jouabilité, feedback visuel/sonore).
+
+Preuve matérielle:
+[Image: CAJAZ.png]
+Lien portfolio: Voir le projet Unity (section Projets du site)
+
+Impact: capacité à concevoir une application interactive, structurer le code, gérer les ressources et livrer une expérience cohérente.
+
+5. Compétence 2 : Optimisation algorithmique et analyse de la performance
+
+Projet associé: Mini projet Fibonacci — calculer le plus grand nombre de termes en 1 seconde.
+Démarche:
+- Comparaison d’approches (récursif, itératif, mémoisation, formules fermées).
+- Mesures empiriques des performances; choix informé de l’approche.
+- Analyse de complexité et des contraintes numériques (taille d’entiers, précision).
+
+Preuve matérielle:
+[Image: FIBO.png]
+Lien portfolio: Voir le mini projet Fibonacci (section Projets du site)
+
+Impact: savoir équilibrer exactitude, complexité et contraintes temps; instrumenter, profiler, et optimiser.
+
+6. Compétence 3 : Travail collaboratif et gestion de projet technique
+
+Contexte: projets d’équipe (jeu, travaux pratiques), utilisation de Git/GitHub, répartition des rôles.
+Pratiques:
+- Découpage en tâches, priorisation, intégrations fréquentes via branches et PR.
+- Revue de code, résolution de conflits de fusion, standardisation du style.
+- Documentation concise (README, consignes d’usage), jalons et démonstrations.
+
+Preuve matérielle:
+Lien portfolio: Voir les projets livrés (section Projets du site)
+
+Impact: organisation, communication et livraison de valeur de manière itérative et fiable.
+
+7. Expériences professionnelles et personnelles
+
+- Agence immobilière: postes variés (assistant comptable, gestion de copropriété, agence).
+- Travail à l’étranger (Lisbonne, Sydney, Byron Bay, Brisbane): adaptation, autonomie, anglais.
+- Micro-entreprise sneakers: sourcing, pricing, gestion de stock, suivi client.
+- Engagement associatif (Kiwanis, Petit Pas): sens du service, rigueur et empathie.
+
+Ces expériences renforcent responsabilité, résilience et professionnalisme au service de projets techniques.
+
+8. Compétences et savoir-faire
+
+Techniques (Hard skills):
+- Langages: C, C#, Python, Java
+- Développement Unity 2D
+- Algorithmique et optimisation
+- Git / GitHub et intégration de code
+- UI/UX de base (interfaces claires, responsive)
+
+Méthodologiques:
+- Gestion de projet, priorisation, suivi des issues
+- Travail en équipe (revue de code, conventions)
+- Analyse et résolution de problèmes
+
+Comportementales (Soft skills):
+- Autonomie, persévérance, curiosité
+- Communication claire
+- Esprit critique et sens du collectif
+
+9. Ouverture et perspectives
+
+Centres d’intérêt: développement logiciel, optimisation, cybersécurité, IA appliquée.
+Objectifs à moyen terme:
+- Renforcer mes compétences en architecture et qualité de code.
+- Approfondir l’optimisation et l’observabilité (profilage, métriques, logs).
+- Participer à des projets concrets utiles et bien conçus, en équipe.
+
+Vision: devenir un ingénieur polyvalent, capable d’articuler technique, produit et collaboration pour délivrer des solutions robustes et performantes.
+
+10. Conclusion et contact
+
+Ce portfolio écrit synthétise mes projets, mes compétences et ma trajectoire. Il met en évidence ma capacité à apprendre vite, à concevoir proprement, à optimiser et à travailler efficacement en équipe.
+
+Contact
+Téléphone: +33 7 83 26 65 10
+E-mail: charles.roussel@epita.fr
+
+Références images: CAJAZ.png, FIBO.png (dossier du portfolio)
+Liens complémentaires: voir les cartes projets sur le site (Projets)

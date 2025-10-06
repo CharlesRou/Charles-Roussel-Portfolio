@@ -1,0 +1,172 @@
+Portfolio professionnel – Semestre 3
+
+Nom : Charles ROUSSEL
+École : EPITA – École d’ingénieurs en informatique
+Formation : Cycle ingénieur en informatique
+Année : 2025
+
+Table des matières
+
+Introduction
+
+Présentation personnelle
+
+Parcours académique
+
+Projets réalisés
+
+4.1 Création d’un jeu vidéo multijoueur
+
+4.2 Mini-projet d’algorithmique : suite de Fibonacci
+
+Expériences professionnelles et personnelles
+
+Compétences et savoir-faire
+
+Ouverture et perspectives
+
+Conclusion
+
+1. Introduction
+
+Ce portfolio a pour objectif de présenter mon parcours à l’EPITA, mes réalisations et les compétences que j’ai développées depuis le début de ma formation.
+Il reflète à la fois mon évolution académique, mes expériences passées et mes projets concrets, dans le but de montrer comment je progresse vers mon objectif : devenir un ingénieur en informatique capable de combiner rigueur technique, créativité et esprit d’équipe.
+
+2. Présentation personnelle
+
+Je m’appelle Charles Roussel, actuellement étudiant à l’EPITA, école d’ingénieurs en informatique.
+Mon parcours est marqué par une curiosité constante pour les domaines du commerce, de la finance et de l’entrepreneuriat, ainsi que par un fort attrait pour la technologie et la programmation.
+
+Avant d’intégrer l’EPITA, j’ai vécu une année sabbatique riche en expériences professionnelles et humaines : j’ai travaillé dans une agence immobilière, à différents postes (assistant comptable, assistant de gestionnaire de copropriété, assistant d’agent immobilier). J’ai ensuite eu l’occasion de travailler à l’étranger, notamment à Lisbonne, Sydney, Byron Bay et Brisbane, ce qui m’a permis de perfectionner mon anglais professionnel et d’acquérir une grande maturité.
+
+Dès le lycée, j’ai aussi exploré le monde entrepreneurial en créant ma micro-entreprise de revente de sneakers, générant environ 10 000 € de chiffre d’affaires. Cette initiative m’a appris la gestion, la stratégie commerciale et l’autonomie.
+
+Enfin, je suis engagé depuis longtemps dans des actions caritatives, notamment avec l’association Kiwanis, dont mon père est membre actif, et dans des marches solidaires pour l’association Petit Pas (syndrome de Prader-Willi).
+
+3. Parcours académique
+
+Au lycée, j’ai suivi les spécialités Mathématiques, Physique-Chimie et SVT, tout en m’intéressant aux Sciences Économiques et Sociales en parallèle.
+Ces choix m’ont permis de renforcer ma rigueur scientifique tout en gardant une ouverture vers des domaines plus analytiques et humains.
+
+Mon entrée à l’EPITA a marqué une nouvelle étape dans mon parcours : j’y ai découvert une approche complète de l’informatique, alliant théorie et pratique, avec un apprentissage concret des langages de programmation, de l’algorithmique et du travail en équipe.
+J’ai notamment approfondi mes compétences en Python, C#, C, Java, et en développement logiciel.
+
+4. Sélection et présentation des compétences
+
+Dans le cadre de ce portfolio, j’ai choisi de présenter trois compétences clés que j’ai pu développer au cours de mes projets à l’EPITA :
+
+Compétence 1 : Conception et développement d’applications logicielles
+
+Compétence 2 : Optimisation algorithmique et analyse de la performance
+
+Compétence 3 : Travail collaboratif et gestion de projet technique
+
+Compétence 1 : Conception et développement d’applications logicielles
+
+Projet associé : Création d’un jeu vidéo multijoueur
+
+Contexte :
+Ce projet, mené dans le cadre d’un module de développement à l’EPITA, consistait à concevoir un jeu vidéo 2D multijoueur en C# sous Unity, utilisant le moteur réseau Photon pour gérer les interactions entre joueurs en temps réel.
+
+Justification de la compétence :
+Ce projet m’a permis de mettre en pratique les principes fondamentaux de la programmation orientée objet, de la modularité et de la conception logicielle.
+J’ai conçu plusieurs modules du jeu, dont le système de tir à l’aide du Raycast, la gestion des collisions, et la communication entre clients via le réseau.
+Le projet m’a également confronté à la nécessité d’organiser proprement le code, de définir des classes cohérentes et de penser à la réutilisabilité du programme.
+
+Réflexion personnelle :
+Cette expérience m’a montré l’importance d’une architecture claire et d’une bonne gestion des ressources dans un projet collaboratif. J’ai appris à passer d’un raisonnement abstrait à une implémentation fonctionnelle et fluide, en tenant compte des contraintes techniques du moteur Unity et des temps de réponse réseau.
+
+(Ici, tu pourras insérer des captures d’écran du jeu : menu, gameplay, code Raycast, interface Unity, etc.)
+
+Compétence 2 : Optimisation algorithmique et analyse de la performance
+
+Projet associé : Mini-projet d’algorithmique – Suite de Fibonacci
+
+Contexte :
+Ce mini-projet individuel avait pour objectif de calculer le plus grand nombre de Fibonacci possible en une seconde, en optimisant les performances du code.
+
+Justification de la compétence :
+Pour atteindre cet objectif, j’ai comparé différentes approches (récursive, itérative, mémoïsation, formule de Binet).
+J’ai ensuite analysé le temps d’exécution de chaque méthode pour en déduire la plus efficace.
+Cette démarche m’a permis de travailler sur l’analyse de complexité algorithmique (O(n), O(log n)), la gestion de la mémoire, et les optimisations liées à la précision numérique.
+
+Réflexion personnelle :
+Ce projet m’a appris à penser en termes de performance et de scalabilité.
+J’ai compris qu’un bon programme ne se limite pas à donner un résultat correct : il doit aussi être rapide, efficace et robuste.
+J’ai également découvert l’intérêt de mesurer les performances de manière empirique à l’aide d’outils de chronométrage et de logs.
+
+(Tu pourras insérer des captures de code ou de graphique de performance ici.)
+
+Compétence 3 : Travail collaboratif et gestion de projet technique
+
+Projet associé : Jeu vidéo multijoueur (projet de groupe)
+
+Contexte :
+Le projet du jeu vidéo a été réalisé en équipe, dans un environnement nécessitant communication, coordination et répartition claire des rôles.
+
+Justification de la compétence :
+J’ai participé activement à la gestion de l’avancement du projet, à la répartition des tâches, et à l’intégration du code sur Git.
+J’ai aussi dû apprendre à communiquer efficacement avec mes coéquipiers, à résoudre des conflits techniques (fusion de code, différences de version) et à assurer la cohérence globale du projet.
+
+Réflexion personnelle :
+Ce projet m’a permis de comprendre l’importance du travail collectif dans un environnement technique.
+J’ai appris à écouter les autres, à proposer des idées tout en respectant les contraintes du groupe, et à rester rigoureux dans mes contributions.
+C’est une expérience qui m’a renforcé humainement et professionnellement.
+5. Expériences professionnelles et personnelles
+
+Agence immobilière (année sabbatique) : découverte de plusieurs métiers (comptabilité, gestion, commerce).
+
+Travail à l’étranger (Portugal & Australie) : développement de l’autonomie, de la capacité d’adaptation et de l’anglais.
+
+Micro-entreprise de revente de sneakers : sens commercial, rigueur financière, gestion des stocks et relation client.
+
+Engagement associatif (Kiwanis, Petit Pas) : développement du sens des responsabilités, de la bienveillance et de l’empathie.
+
+Ces expériences m’ont apporté une maturité professionnelle et un sens de l’effort qui me servent aujourd’hui dans mes études d’ingénieur.
+
+6. Compétences et savoir-faire
+Compétences techniques (Hard Skills)
+
+Langages : Python, C, C#, Java
+
+Développement Unity 2D
+
+Algorithmique et optimisation
+
+Utilisation de Git et GitHub
+
+Création d’interfaces graphiques (Tkinter)
+
+Traitement de données et visualisation (Rider, C#)
+
+Compétences méthodologiques
+
+Gestion de projet
+
+Travail en équipe agile
+
+Analyse et résolution de problèmes complexes
+
+Organisation du code et architecture logicielle
+
+Compétences comportementales (Soft Skills)
+
+Autonomie et persévérance
+
+Communication claire
+
+Esprit critique et curiosité
+
+Ouverture culturelle et sens du collectif
+
+7. Ouverture et perspectives
+
+Je m’intéresse particulièrement aux domaines du développement logiciel, de la cybersécurité et de l’intelligence artificielle.
+À moyen terme, je souhaite continuer à renforcer mes compétences techniques tout en développant une approche entrepreneuriale, afin de concevoir des projets à la fois innovants et utiles.
+Mon objectif est de devenir un ingénieur polyvalent, capable de travailler sur des projets concrets, à la croisée de la technologie et du monde des affaires.
+
+8. Conclusion
+
+Ce portfolio illustre mon évolution à la fois personnelle et professionnelle.
+Il témoigne d’un parcours équilibré entre rigueur académique, engagement concret et passion pour la création.
+À travers mes projets et expériences, j’ai appris à transformer mes idées en réalisations tangibles, et à travailler avec méthode, curiosité et persévérance — des qualités essentielles pour la suite de mon parcours à l’EPITA et au-delà.
