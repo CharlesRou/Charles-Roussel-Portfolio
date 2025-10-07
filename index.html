@@ -54,37 +54,94 @@
 
         <section class="section" id="projects" data-reveal>
             <div class="container">
-                <h2>Projets</h2>
-                <div class="grid projects-grid" data-reveal>
-                    <article class="card project" id="proj-unity">
-                        <div class="thumb">
-                            <img src="CAJAZ.png" alt="Capture du jeu Unity CAJAZ">
-                        </div>
-                        <h3>Jeu vidéo — Unity en C#</h3>
-                        <p>Petit jeu développé avec Unity: gameplay, gestion des scènes, UI, et scripts C#.</p>
-                        <div class="tags">
-                            <span>Unity</span><span>C#</span><span>Gameplay</span>
-                        </div>
-                        <div class="card-actions">
-                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Démo</a>
-                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
-                        </div>
-                    </article>
-                    <article class="card project" id="proj-ocr">
-                        <div class="thumb">
-                            <img src="FIBO.png" alt="Mini projet Fibonacci — benchmark en 1 seconde">
-                        </div>
-                        <h3>Mini projet — Algo Fibonacci (1 seconde)</h3>
-                        <p>Objectif: calculer le plus grand nombre de termes de la suite de Fibonacci en 1 seconde (optimisations, complexité, benchmark).</p>
-                        <div class="tags">
-                            <span>C</span><span>Algorithmes</span><span>Performance</span>
-                        </div>
-                        <div class="card-actions">
-                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Rapport</a>
-                            <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
-                        </div>
-                    </article>
-                </div>
+                <h2>Projets réalisés</h2>
+                <article class="card project-detail" id="proj-multiplayer">
+                    <div class="thumb">
+                        <img src="CAJAZ.png" alt="Capture du jeu multijoueur Unity">
+                    </div>
+                    <h3>Création d’un jeu vidéo multijoueur (projet scolaire)</h3>
+                    <p><strong>Contexte</strong> : projet réalisé dans le cadre de ma formation à l’EPITA.</p>
+                    <p><strong>Objectif</strong> : concevoir un jeu 2D multijoueur en ligne, combinant développement, logique réseau et design d’interaction.</p>
+
+                    <div class="tags">
+                        <span>Unity</span><span>C#</span><span>Photon</span><span>Multijoueur</span>
+                    </div>
+
+                    <h4>Technologies utilisées</h4>
+                    <ul>
+                        <li><strong>Moteur</strong> : Unity</li>
+                        <li><strong>Langage</strong> : C#</li>
+                        <li><strong>Réseau</strong> : Photon (synchronisation des joueurs en temps réel)</li>
+                    </ul>
+
+                    <h4>Rôle personnel</h4>
+                    <p>Travail principal sur le système de tir de l’arme du joueur (Raycast) et la synchronisation des interactions entre clients. Participation à la gestion des collisions, à la structuration du code et à la coordination de l’équipe.</p>
+
+                    <h4>Résultats et apprentissages</h4>
+                    <p>Compréhension d’un système réseau en temps réel, application des principes de POO, renforcement des compétences en débogage et gestion d’équipe. Adaptation aux contraintes techniques réelles (latence réseau, synchronisation des entités).</p>
+
+                    <h4>Compétences mobilisées</h4>
+                    <ul>
+                        <li>Programmation orientée objet (C#)</li>
+                        <li>Gestion de projet collaboratif</li>
+                        <li>Conception logicielle</li>
+                        <li>Communication et coordination d’équipe</li>
+                    </ul>
+                </article>
+
+                <article class="card project-detail" id="proj-fibonacci">
+                    <div class="thumb">
+                        <img src="FIBO.png" alt="Illustration du mini-projet Fibonacci">
+                    </div>
+                    <h3>Mini-projet d’algorithmique : suite de Fibonacci</h3>
+                    <p><strong>Contexte</strong> : mini-projet individuel dans le cadre du cours d’algorithmique avancée.</p>
+                    <p><strong>Objectif</strong> : calculer le plus grand nombre de Fibonacci possible en une seconde, en optimisant la vitesse d’exécution.</p>
+
+                    <h4>Approche</h4>
+                    <ul>
+                        <li>Version récursive naïve (référence comparative)</li>
+                        <li>Version itérative optimisée</li>
+                        <li>Version avec mémoïsation et usage de la formule de Binet (approximations logarithmiques)</li>
+                    </ul>
+
+                    <h4>Résultat</h4>
+                    <p>La version optimisée atteint un indice très élevé (plusieurs millions) en moins d’une seconde.</p>
+
+                    <h4>Compétences mobilisées</h4>
+                    <ul>
+                        <li>Optimisation algorithmique</li>
+                        <li>Gestion du temps d’exécution</li>
+                        <li>Analyse de complexité</li>
+                        <li>Rigueur et méthode expérimentale</li>
+                    </ul>
+                </article>
+
+                <article class="card project-detail" id="proj-ocr-detailed">
+                    <div class="thumb">
+                        <img src="OCR.png" alt="Aperçu de l’application OCR de grilles de mots cachés">
+                    </div>
+                    <h3>Application complète OCR — Grille de mots cachés (en cours)</h3>
+                    <p><strong>Contexte</strong> : développement en cours d’une application de bout en bout pour traiter des grilles de mots cachés à partir d’une image.</p>
+                    <p><strong>Objectif</strong> : importer une image, extraire la grille via reconnaissance optique de caractères, résoudre la grille (identifier les mots), et proposer une interface graphique pour visualiser, corriger et sauvegarder les résultats.</p>
+
+                    <h4>Fonctionnalités et approche</h4>
+                    <ul>
+                        <li>Prétraitement de l’image et extraction de la grille</li>
+                        <li>OCR dédié aux caractères de la grille</li>
+                        <li>Moteur de recherche de mots et validation</li>
+                        <li>Interface graphique pour révision et export</li>
+                    </ul>
+
+                    <h4>Phase d’entraînement</h4>
+                    <p>Entraînement séparé d’un modèle de réseau de neurones convolutifs pour la reconnaissance de caractères.</p>
+
+                    <div class="tags">
+                        <span>Python</span><span>OpenCV</span><span>OCR</span><span>CNN</span><span>UX</span>
+                    </div>
+
+                    <h4>État</h4>
+                    <p>En cours — intégration des modules OCR et interface.</p>
+                </article>
             </div>
         </section>
 
@@ -94,24 +151,18 @@
                 <div class="grid skills-grid">
                     <div class="card">
                         <h3>Compétence 1 : Conception et développement d’applications logicielles</h3>
-                        <p>De l’idée au produit: architecture, implémentation propre et UI fonctionnelle en C# (Unity).</p>
-                        <ul class="evidence-list">
-                            <li><a href="#proj-unity">Voir le projet Unity</a></li>
-                        </ul>
+                        <p>Je conçois des applications robustes, de l’architecture à l’UI, démontré par Unity multijoueur et l’application OCR modulaire en cours complète.</p>
+                        
                     </div>
                     <div class="card">
                         <h3>Compétence 2 : Optimisation algorithmique et analyse de la performance</h3>
-                        <p>Conception d’algorithmes efficaces, mesures et itérations pour respecter des contraintes temps strictes.</p>
-                        <ul class="evidence-list">
-                            <li><a href="#proj-ocr">Voir le mini projet Fibonacci</a></li>
-                        </ul>
+                        <p>J’optimise algorithmes et performances: Fibonacci validé < une seconde, Unity sobre côté client, OCR efficace (prétraitements, inférence) et mesures instrumentées.</p>
+                        
                     </div>
                     <div class="card">
                         <h3>Compétence 3 : Travail collaboratif et gestion de projet technique</h3>
-                        <p>Organisation du travail, priorisation, et livrables clairs (UI responsive, accessibilité, qualité du code).</p>
-                        <ul class="evidence-list">
-                            <li><a href="#projects">Voir les projets livrés</a></li>
-                        </ul>
+                        <p>Je coordonne équipes et livrables: Unity multijoueur structuré, OCR planifié par phases; priorisation, revues, documentation concise, livraisons fiables et collaboration.</p>
+                        
                     </div>
                 </div>
             </div>
