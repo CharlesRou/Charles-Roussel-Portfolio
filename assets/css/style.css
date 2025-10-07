@@ -100,6 +100,17 @@ html, body {
   overflow: hidden;
 }
 
+.hero .container { display: grid; align-items: center; grid-template-columns: auto 1fr; gap: 20px; }
+.hero-media { display: grid; place-items: center; }
+.hero-avatar {
+  width: clamp(84px, 14vw, 140px);
+  height: clamp(84px, 14vw, 140px);
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
 .hero h1 {
   font-size: clamp(28px, 5vw, 44px);
   line-height: 1.1;

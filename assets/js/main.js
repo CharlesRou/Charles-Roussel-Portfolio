@@ -36,6 +36,12 @@
     a.addEventListener('click', (e) => {
       const id = a.getAttribute('href');
       if (!id || id === '#' || id.length < 2) return;
+      if (id === '#top') {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        history.pushState(null, '', id);
+        return;
+      }
       const target = document.querySelector(id);
       if (!target) return;
       e.preventDefault();
